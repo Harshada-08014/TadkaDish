@@ -2,6 +2,7 @@
 
 TadkaDish is an online food ordering system developed by Harshada Kotawadekar at the University of Mumbai. TadkaDish is an online food delivery system created to offer users a seamless food ordering experience. With TadkaDish, customers can explore a wide range of dishes from different restaurants, place their orders, and have meals delivered straight to their doorsteps. This project highlights the application of modern web technologies to build a fully functional online food delivery platform.
 
+
 <img width="948" alt="home" src="https://github.com/user-attachments/assets/dd68868d-7377-4dda-80af-09feed9a955b" />
 
 ---
@@ -68,7 +69,6 @@ You're now all set to begin working on the project!
 <img width="711" alt="pics" src="https://github.com/user-attachments/assets/0911471d-3eab-4a7c-a228-96be0df3eaa9" />
 
 
-<img width="724" alt="pics2" src="https://github.com/user-attachments/assets/43fd06ba-01d0-46a6-b6ac-e68239b8acfd" />
 
 
 
