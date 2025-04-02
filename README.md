@@ -50,7 +50,7 @@ b) **Set up the development environment**:
 
 c) **Import the Database:**
 1. Open **phpMyAdmin** from the XAMPP control panel.
-2. Create a new database (e.g., `tadkadish`).
+2. Create a new database (e.g., `user_db`).
 3. Import the provided `.sql` file into the newly created database.
 
 d) **Configure Database Credentials:**
@@ -66,5 +66,9 @@ f) **Start Developing:**
 You're now all set to begin working on the project!
 
 <img width="711" alt="pics" src="https://github.com/user-attachments/assets/0911471d-3eab-4a7c-a228-96be0df3eaa9" />
+
+
+<img width="724" alt="pics2" src="https://github.com/user-attachments/assets/43fd06ba-01d0-46a6-b6ac-e68239b8acfd" />
+
 
 
