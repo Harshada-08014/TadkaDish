@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Malai Lassi",
+        "price": 35,
+        "image": "Desserts\/malai lassi.jfif"
+    },
+    {
+        "name": "Mango Lassi",
+        "price": "45",
+        "image": "Desserts\/mango lassi.jfif"
+    },
+    {
+        "name": "Dry-fruit Lassi",
+        "price": 50,
+        "image": "Desserts\/dry fruit lassi.jfif"
+    },
+    {
+        "name": "Lemonade",
+        "price": 40,
+        "image": "Desserts\/lemonade.jpg"
+    },
+    {
+        "name": "Chaas",
+        "price": 30,
+        "image": "Desserts\/chaas.jfif"
+    },
+    {
+        "name": "Masala Chaas",
+        "price": 35,
+        "image": "Desserts\/masala chaas.jfif"
+    },
+    {
+        "name": "Choco Molten lava cake",
+        "price": 300,
+        "image": "Desserts\/choco molten lava.jfif"
+    },
+    {
+        "name": "Tiramisu cake",
+        "price": 320,
+        "image": "Desserts\/tiramisu cake.jfif"
+    },
+    {
+        "name": "Chocolate cake",
+        "price": 250,
+        "image": "Desserts\/chocolate cake.jfif"
+    },
+    {
+        "name": "Red-velvet cake",
+        "price": 300,
+        "image": "Desserts\/red-velvet cake.jfif"
+    },
+    {
+        "name": "Red-velvet Cheese cake",
+        "price": 350,
+        "image": "Desserts\/red-velvet cheese cake.jfif"
+    },
+    {
+        "name": "Vanilla Ice-cream",
+        "price": 40,
+        "image": "Desserts\/vanilla.jfif"
+    },
+    {
+        "name": "Strawberry Ice-cream",
+        "price": 45,
+        "image": "Desserts\/strawberry.jfif"
+    },
+    {
+        "name": "Chocolate Ice-cream",
+        "price": 40,
+        "image": "Desserts\/chocolate ice-cream.jpg"
+    },
+    {
+        "name": "Hot Choco Floats",
+        "price": 150,
+        "image": "Desserts\/hot-chocolate-floats.jpg"
+    },
+    {
+        "name": "Royal Falooda",
+        "price": 125,
+        "image": "Desserts\/royal falooda.jpeg"
+    },
+    {
+        "name": "Chocolate Falooda",
+        "price": 100,
+        "image": "Desserts\/chocolate falooda.jfif"
+    },
+    {
+        "name": "Rasgulla Falooda",
+        "price": 180,
+        "image": "Desserts\/rasgulla falooda.jfif"
+    },
+    {
+        "name": "Rasgulla",
+        "price": "50",
+        "image": "Desserts\/rasgulla.jfif"
+    }
+]

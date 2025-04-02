@@ -1,0 +1,141 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Image/menu-bg1.jfif");
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-image: url('Image/header.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: Algerian;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+/* Form Container */
+.menu {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+}
+
+.menu h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Fields */
+input[type="text"], input[type="number"] {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+}
+
+/* Labels */
+label {
+    font-size: 1.1rem;
+    color: black;
+    text-align: left;
+    font-weight: 500;
+}
+
+/* Button */
+.order-btn {
+    background-color: #626CD6;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.order-btn:hover {
+    background-color: #45a049;
+}
+
+.order-btn:focus {
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .menu {
+        width: 100%;
+        padding: 30px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Additional styles for visual appeal */
+input[type="text"], input[type="number"] {
+    background-color: #f9f9f9;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    background-color: #e9f7e9;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}

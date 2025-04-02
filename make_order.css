@@ -1,0 +1,132 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a nice background to the page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('Image/order1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    padding: 20px;
+}
+
+/* Center the content on the page */
+h2{
+    font-size: 4rem;
+    text-align: center;
+    color: gold;
+    font-family: Chiller;
+}
+
+h3{
+    text-align: center;
+}
+
+/* Style the order list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 1rem;
+}
+
+ul li {
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li:nth-child(odd) {
+    background-color: lavender;
+}
+
+/* Style the total price */
+p {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: lightgoldenrodyellow;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Style the form container */
+form, h3  {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Focus effect for inputs */
+form input:focus, form textarea:focus {
+    border-color: #6c5ce7;
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 92, 231, 0.4);
+}
+
+/* Style the submit button */
+form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #6c5ce7;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+form button:hover {
+    background-color: #5e54d7;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    form input, form textarea {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    form button {
+        font-size: 1rem;
+    }
+}

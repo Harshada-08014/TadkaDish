@@ -1,0 +1,268 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;  /* Enable smooth scrolling */
+}
+
+body {
+    font-family: 'Copperplate Gothic Bold';
+    line-height: 1.6;
+    background-color: darkgrey;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    font-family: Jokerman;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background: url('Image/res5.jpg') no-repeat center center/cover; /* Correct relative path */
+    color: white;
+    text-align: center;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-family: Curlz MT;
+    font-weight: lighter;
+    color: white;
+    animation: jump 1s ease-in-out infinite; /* Added animation */
+}
+
+/* Jumping animation */
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.hero b {
+    font-size: 1.24rem;
+    font-family: Lucida Calligraphy;
+    font-weight: bold;
+    color:white;
+}
+
+section {
+    padding: 2.5rem 2rem;
+    text-align: center;
+}
+
+.about {
+    background: url('Image/ab8.jpg');
+    color: #fefefe;
+    font-family: Gabriola;
+    font-size: larger;
+}   
+
+.h2 {
+    transition: 0.5s;
+}
+
+h2:hover {
+    text-shadow: 0 1px 0 #040000, 0 2px 0 #090909,
+        0 3px 0 #ccc, 0 4px 0 #ccc,
+        0 5px 0 #ccc, 0 6px 0 #ccc,
+        0 7px 0 #ccc, 0 8px 0 #ccc,
+        0 9px 0 #ccc, 0 10px 0 #ccc,
+        0 11px 0 #ccc, 0 12px 0 #ccc,
+        0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    background-image: url('Image/menubg3.png');
+}
+
+.menu h2{
+    color: #fefefe;
+    font-family: Edwardian Script ITC;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.menu b{
+    color: #fefefe;
+    font-family: Lucida Calligraphy;
+    font-weight: lighter;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menu-item {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;             /* Fixed width for each menu item */
+    height: 400px;            /* Fixed height for the menu item container */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Menu Section: Ensure consistent image size for all menu items */
+.menu-item img {
+    width: 100%;            /* Ensures the image takes up the full width of the container */
+    height: 200px;          /* Fixed height for all images */
+    object-fit: cover;      /* Maintains aspect ratio and ensures images cover the area without distortion */
+    border-radius: 8px;     /* Optional: Rounds the corners of the image */
+}
+
+
+.menu-item h3 {
+    margin: 1rem 0;
+}
+
+.menu-item h3:hover{
+    color: green;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Example CSS to style the logout button */
+#menu li a.logout {
+    color: #f44336; /* Red color for logout */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#menu li a.logout:hover {
+    text-decoration: underline; /* Adding hover effect */
+}
+
+.contact input,
+.contact textarea {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.success-message {
+    color: green;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+}

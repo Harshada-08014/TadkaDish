@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Non-Veg Thali",
+        "price": "290",
+        "image": "Image\/nonveg thali.jfif"
+    },
+    {
+        "name": "Butter Chicken",
+        "price": 200,
+        "image": "Image\/butter-chicken.jfif"
+    },
+    {
+        "name": "Tandoori Chicken",
+        "price": 260,
+        "image": "Image\/tandori chicken.jfif"
+    },
+    {
+        "name": "Mutton Curry",
+        "price": 200,
+        "image": "Image\/mutton curry.jfif"
+    },
+    {
+        "name": "Biryani",
+        "price": 200,
+        "image": "Image\/non-veg biryani.jfif"
+    },
+    {
+        "name": "Bangda Curry",
+        "price": 150,
+        "image": "Image\/bangda curry.jfif"
+    },
+    {
+        "name": "Bangda Fry",
+        "price": 130,
+        "image": "Image\/bangda fry.jfif"
+    },
+    {
+        "name": "Crispy Bombil fry",
+        "price": 120,
+        "image": "Image\/bombil-fry.jfif"
+    },
+    {
+        "name": "Prawn-Masala",
+        "price": 250,
+        "image": "Image\/prawn masala.jfif"
+    },
+    {
+        "name": "Crispy Prawn fry",
+        "price": 180,
+        "image": "Image\/prawn fry.jfif"
+    },
+    {
+        "name": "Prawn Curry",
+        "price": 240,
+        "image": "Image\/prawn curry.jfif"
+    },
+    {
+        "name": "Crab Curry",
+        "price": 250,
+        "image": "Image\/crab curry.jfif"
+    }
+]

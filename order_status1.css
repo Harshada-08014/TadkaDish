@@ -1,0 +1,126 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f4f7fb; /* Soft light background color */
+    background-image: url('Image/status1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h2 {
+    font-family: Edwardian Script ITC;
+    text-align: center;
+    color: black; /* Blue color for the title */
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+h3 {
+    color: black;
+    font-size: 2.3rem;
+    font-family: Algerian;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+h4 {
+    color: white;
+    font-size: 3rem;
+    font-family: Embassy BT;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Order Info Styles */
+p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+strong {
+    color: #4A90E2; /* Accent color */
+}
+
+/* Food List */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Order Status and Total Price */
+p strong {
+    font-size: 1.2rem;
+    color: black; /* Green for total price and status */
+}
+
+/* Button Styles */
+button {
+    background: #6c5ce7; /* Blue button color */
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #6c5ce7; /* Darker shade on hover */
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}

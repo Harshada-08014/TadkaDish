@@ -1,0 +1,115 @@
+/* General reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url('Image/mobg4.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+strong {
+    font-weight: bold;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button, a {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Delete Button Styles */
+button {
+    background-color: #626cd6;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(125, 62, 215, 0.3);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+/* Cancel Button Styles */
+a {
+    background-color: #626cd6;
+    color: white;
+    border: none;
+}
+
+a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(125, 62, 215, 0.3);
+}
+
+a:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button, a {
+        width: 100%;
+        font-size: 18px;
+        padding: 15px;
+    }
+}

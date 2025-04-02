@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- Source Codes By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+  <div class="form_container">
+    <!-- Login form container -->
+    <div class="login_form" id="loginForm">
+      <form action="login.php" method="POST">
+        <h3>Log in with</h3>
+
+        <div class="login_option">
+          <!-- Google button -->
+          <div class="option">
+            <a href="#">
+              <img src="logos/google.png" alt="Google" />
+              <span>Google</span>
+            </a>
+          </div>
+
+          <!-- Apple button -->
+          <div class="option">
+            <a href="#">
+              <img src="logos/apple.png" alt="Apple" />
+              <span>Apple</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Login option separator -->
+        <p class="separator">
+          <span>or</span>
+        </p>
+
+        <!-- Email input box -->
+        <div class="input_box">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter email address" required />
+        </div>
+
+        <!-- Password input box -->
+        <div class="input_box">
+          <div class="password_title">
+            <label for="password">Password</label>
+            <a href="#" id="forgotPasswordLink">Forgot Password?</a>
+          </div>
+
+          <input type="password" name="password" id="password" placeholder="Enter your password" required />
+        </div>
+
+        <!-- Login button -->
+        <button type="submit">Log In</button>
+
+        <p class="sign_up">Don't have an account? <a href="#" id="showSignup">Sign up</a></p>
+      </form>
+    </div>
+
+    <!-- Sign up form container (Initially hidden) -->
+    <div class="signup_form" id="signupForm" style="display: none;">
+      <form action="signup.php" method="POST">
+        <h3>Create a New Account</h3>
+
+        <!-- Full Name input box -->
+        <div class="input_box">
+          <label for="fullname">Full Name</label>
+          <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required />
+        </div>
+
+        <!-- Email input box (for sign-up) -->
+        <div class="input_box">
+          <label for="newEmail">Email</label>
+          <input type="email" name="newEmail" id="newEmail" placeholder="Enter your email" required />
+        </div>
+
+        <!-- Password input box -->
+        <div class="input_box">
+          <label for="newPassword">Password</label>
+          <input type="password" name="newPassword" id="newPassword" placeholder="Create a password" required />
+        </div>
+
+        <!-- Confirm Password input box -->
+        <div class="input_box">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" placeholder="Confirm your password" required />
+        </div>
+
+        <!-- Sign-up button -->
+        <button type="submit">Sign Up</button>
+
+        <p class="sign_in">Already have an account? <a href="login.php" id="showLogin">Log in</a></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Forgot Password Modal -->
+  <div id="forgotPasswordModal" class="modal" style="display: none;">
+    <div class="modal_content">
+      <span id="closeModal" class="close">&times;</span>
+      <h3>Forgot Password</h3>
+      <form action="forgot-password.php" method="POST">
+        <div class="input_box">
+          <label for="resetEmail">Enter your email address</label>
+          <input type="email" id="resetEmail" name="resetEmail" placeholder="Email" required />
+        </div>
+        <button type="submit">Submit</button>
+      </form>      
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+  <script>
+    // JavaScript to handle the modal for forgot password
+    const forgotPasswordLink = document.getElementById('forgotPasswordLink');
+    const forgotPasswordModal = document.getElementById('forgotPasswordModal');
+    const closeModal = document.getElementById('closeModal');
+
+    // Show the forgot password modal when the link is clicked
+    forgotPasswordLink.addEventListener('click', function(event) {
+      event.preventDefault();
+      forgotPasswordModal.style.display = 'block';
+    });
+
+    // Close the modal when the close button is clicked
+    closeModal.addEventListener('click', function() {
+      forgotPasswordModal.style.display = 'none';
+    });
+
+    // Close the modal if the user clicks outside of it
+    window.addEventListener('click', function(event) {
+      if (event.target === forgotPasswordModal) {
+        forgotPasswordModal.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+/* Reset some default styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    background-image: url('Image/mobg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header Section */
+header {
+    text-align: center; /* Center the heading */
+    padding: 15px 20px 20px; /* Add padding to the top and bottom 
+    background-color: #333;*/
+    background-image: url('Image/header.jfif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Edwardian Script ITC;
+    font-size: 59px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+/* Navigation Styling */
+nav {
+    /*background-color: #333;*/
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center navigation links */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+/* Table styling */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    /*background-color: dimgray;*/
+    background-image: url('Image/header.jfif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Action Buttons */
+.action-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.action-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.action-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-4px); /* Lifting effect on hover */
+}
+
+/* Specific Button Colors */
+.view-btn {
+    background-image: url('Image/menu-bg1.jfif');
+    /*background-color: #2196F3;*/
+}
+
+.view-btn:hover {
+    background-color: #0b7dda;
+}
+
+.edit-btn {
+    background-image: url('Image/menu-bg1.jfif');
+    background-position: center;
+}
+
+.edit-btn:hover {
+    background-color: #e68900;
+}
+
+.delete-btn {
+    background-image: url('Image/menu-bg1.jfif');
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}

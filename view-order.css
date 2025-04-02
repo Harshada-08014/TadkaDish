@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Container for centering content */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 29px;
+    margin-bottom: 20px;
+    font-family: Algerian;
+    font-weight: normal;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 25px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    font-family: Imprint MT Shadow;
+    font-weight: lighter;
+  }
+
+  p{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Order details and customer information */
+  .order-info {
+    margin-top: 20px;
+  }
+  
+  /* List for food items */
+  ul.food-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.food-items li {
+    background-color: #f9f9f9;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  /* Status indicator */
+  .status {
+    font-weight: bold;
+    color: #28a745; /* Green for "Delivered" */
+  }
+  
+  .status.pending {
+    color: #ffc107; /* Yellow for "Pending" */
+  }
+  
+  .status.shipped {
+    color: #17a2b8; /* Blue for "Shipped" */
+  }
+  
+  /* Button styling */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-btn {
+    background-color: #6c757d;
+  }
+  
+  .back-btn:hover {
+    background-color: #5a6268;
+  }
+  

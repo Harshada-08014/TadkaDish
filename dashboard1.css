@@ -1,0 +1,241 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Image/bg6.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    background-color: #f4f7fc; /* Light background for a clean look */
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Container for the sidebar and main content */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background:rgba(255, 255, 255, 0.8); /* Gradient for sidebar */
+    color: black;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.sidebar:hover {
+    width: 240px; /* Sidebar expands slightly on hover */
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    color: black;
+    font-family: 'Jokerman', cursive;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease, padding-left 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #7780de;
+    padding-left: 25px; /* Smooth padding effect */
+}
+
+/* Main Content Styling */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Header */
+header h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 2.5rem;
+    color: white;
+    font-family: Algerian;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+/* Dashboard Summary Cards */
+.dashboard-summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.dashboard-summary .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-summary .card:hover {
+    transform: translateY(-10px); /* Card lifting effect on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-summary .card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.dashboard-summary .card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #626cd6;
+}
+
+/* Recent Orders Section */
+.recent-orders {
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-bottom: 15px;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.recent-orders table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.recent-orders th, .recent-orders td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.recent-orders th {
+    background-color: #f4f4f4;
+    color: #2980b9;
+}
+
+.recent-orders tr:hover {
+    background-color: #ecf0f1; /* Row highlighting on hover */
+}
+
+.recent-orders th, .recent-orders td {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Analytics Chart */
+.analytics {
+    margin-top: 30px;
+    text-align: center;
+}
+
+canvas {
+    width: 100%;
+    max-width: 650px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons Styling */
+button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+button:active {
+    background-color: #2980b9;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        box-shadow: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .dashboard-summary {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dashboard-summary .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .recent-orders table {
+        font-size: 14px;
+    }
+
+    canvas {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Shudh  Veg Thali",
+        "price": "210",
+        "image": "Image\/veg thali1.jfif"
+    },
+    {
+        "name": "Idli-Sambar",
+        "price": "100",
+        "image": "Image\/idli2.jfif"
+    },
+    {
+        "name": "Dosa-Sambar",
+        "price": 80,
+        "image": "Image\/dosa2.jfif"
+    },
+    {
+        "name": "Dal-Bhaat-Bhaji",
+        "price": 100,
+        "image": "Image\/dal-bhaat-bhaji2.jpg"
+    },
+    {
+        "name": "Samosa",
+        "price": 20,
+        "image": "Image\/samosa.jfif"
+    },
+    {
+        "name": "Vada-Pav",
+        "price": 20,
+        "image": "Image\/vadapav1.jfif"
+    },
+    {
+        "name": "Butter Dabeli",
+        "price": 20,
+        "image": "Image\/dabeli.jfif"
+    },
+    {
+        "name": "Kachori",
+        "price": 25,
+        "image": "Image\/kachori1.jfif"
+    },
+    {
+        "name": "Chole-Bhature",
+        "price": 35,
+        "image": "Image\/chole bhature2.jfif"
+    },
+    {
+        "name": "Pav Bhaji",
+        "price": 125,
+        "image": "Image\/pav-bhaji.jfif"
+    },
+    {
+        "name": "Misal Pav",
+        "price": 150,
+        "image": "Image\/misal pav2.jfif"
+    },
+    {
+        "name": "Usal Pav",
+        "price": "153",
+        "image": "Image\/usalpav.jfif"
+    },
+    {
+        "name": "Puranpoli",
+        "price": "80",
+        "image": "Image\/puranpoli.png"
+    }
+]

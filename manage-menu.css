@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Header Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Image/mobg1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding-top: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 15px 20px 20px;
+    background-image: url(Image/header.jfif);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for header */
+}
+
+header h1 {
+    margin: 0;
+    font-family: Edwardian Script ITC;
+    font-size: 59px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Text shadow for more effect */
+}
+
+/* Navigation Bar Styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* 3D Hover effect for Navigation Links */
+nav ul li a:hover {
+    background-color: #555;
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Container for Category Section */
+.container {
+    width: 40%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    /*background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    text-align: center;*/
+}
+
+.container h2 {
+    margin-bottom: 35px;
+    font-family: Embassy BT;
+    font-size: 3rem ;
+    font-weight:bold;
+    color: #333;
+}
+
+/* Button Styles for Categories */
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the buttons */
+}
+
+.category-buttons button {
+    background-image: url('Image/menu-bg1.jfif');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Shadow to give a raised effect */
+}
+
+/* 3D Hover effect for Category Buttons */
+.category-buttons button:hover {
+    background-color: #626cd6;
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Responsive Design for Buttons */
+@media (max-width: 600px) {
+    .category-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-buttons button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
