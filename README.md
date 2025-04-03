@@ -66,7 +66,8 @@ e) **Run the Project:**
 f) **Start Developing:**
 You're now all set to begin working on the project!
 
-<img width="711" alt="pics" src="https://github.com/user-attachments/assets/0911471d-3eab-4a7c-a228-96be0df3eaa9" />
+
+https://github.com/user-attachments/assets/c718b5ce-2c01-419f-80d8-54100d0d6b91
 
 
 
